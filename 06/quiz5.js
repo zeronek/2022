@@ -6,7 +6,7 @@ Drag(box1);
 
 function Drag(ele){ 
     var x1 = 0, x2 = 0, y1 = 0, y2 = 0; 
-    ele.addEventListener('mousedown', Down)
+    ele.addEventListener('mousedown', Down)  
 
 function Down(e) { 
     x1 = e.clientX; 
